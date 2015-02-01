@@ -1,0 +1,5 @@
+************************** - TEST_SCRIPT - STEPS TO REPRODUCE DEFECT - **************************
+
+SOME USEFUL MESSAGE
+Navigate to URL - http://www.google.com
+

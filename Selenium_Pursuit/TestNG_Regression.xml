@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="AUTOMATION" verbose="1" preserve-order="true">
+
+	<test name="Test_Script">
+		<classes>
+			
+			<class name="com.sp.scripts.SetUp_TearDown" />
+			
+					
+		</classes>
+	</test>
+
+</suite>

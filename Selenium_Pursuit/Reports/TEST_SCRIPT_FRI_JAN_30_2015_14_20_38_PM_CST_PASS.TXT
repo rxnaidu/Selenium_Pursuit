@@ -1,0 +1,30 @@
+			*******************************************************
+			Test Script Name	: TEST_SCRIPT
+			Test Environment	: QA
+			Test Executed By	: RNAIDU
+			Java Version		: 1.7.0_45
+			OS Name / Version	: WINDOWS 7 / 6.1
+			Computer Name		: RAVI NAIDU
+			Browser Name / Version	: CHROME / 39.0.2171.95
+			Test Start Time		: Fri Jan 30 14:20:38 CST 2015
+			Test End Time		: Fri Jan 30 14:20:51 CST 2015
+			Script Execution Time	: 00:00:15
+			Total Number Of Steps	: 2
+			Script Execution Status	: PASS
+
+			*******************************************************
+
+************************************************************
+Description : SOME USEFUL MESSAGE
+
+
+Step 1		01/30/2015 14:20:51		PASS
+------------------------------------------------------------
+Description	: Navigate to URL - http://www.google.com
+Actual Result	: Navigate to URL - http://www.google.com - SUCCESSFULL
+
+
+
+		-------->[ End Of Script Execution ]<--------
+
+

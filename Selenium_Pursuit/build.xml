@@ -1,0 +1,51 @@
+<project basedir="." default="runTest" name="TestingDatadrivenPoc">
+
+	<property name="src" location="./src" />
+	<property name="bin" location="./bin" />
+	<property name="libs" location="./lib" />
+	<property environment="env" />
+
+	<path id="classpath">
+		<fileset dir="${libs}" includes="**/*.jar" />
+		<pathelement location="${bin}" />
+	</path>
+
+	<target name="clean">
+		<echo message="deleting existing bin directory" />
+		
+		<delete dir="${bin}" /> 
+
+	</target>
+	<target name="init">
+		<mkdir dir="${bin}" />
+	</target>
+
+	<target name="compile" depends="clean,init">
+		<echo message="classpath:${test.classpath}" />
+		<echo message="compiling.........." />
+		<javac destdir="${bin}" srcdir="${src}" classpathref="classpath" includeantruntime="false" debug="true" debuglevel="lines,source" />
+	</target>
+
+	<taskdef name="testng" classname="org.testng.TestNGAntTask">
+		<classpath>
+			<pathelement location="lib/testng-6.8.jar" />
+		</classpath>
+	</taskdef>
+
+	<target name="runTest" depends="compile">
+
+		<mkdir dir="testng_output" />
+		<!-- Create the output directory. -->
+		<testng outputdir="testng_output" classpathref="classpath" haltonfailure="true">
+
+			<xmlfileset dir="." includes="TestSuiteRunner.xml" />
+		</testng>
+
+	</target>
+
+	<propertyfile file="buildnumber.properties" comment="My properties">
+
+		<entry key="UniqueID" value="${env.BUILD_NUMBER}" />
+	</propertyfile>
+
+</project>
