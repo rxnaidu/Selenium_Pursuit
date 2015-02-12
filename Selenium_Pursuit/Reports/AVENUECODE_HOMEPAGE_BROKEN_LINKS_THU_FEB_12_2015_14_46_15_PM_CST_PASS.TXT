@@ -1,0 +1,284 @@
+			*******************************************************
+			Test Script Name	: AVENUECODE_HOMEPAGE_BROKEN_LINKS
+			Test Environment	: QA
+			Test Executed By	: RNAIDU
+			Java Version		: 1.7.0_45
+			OS Name / Version	: WINDOWS 7 / 6.1
+			Computer Name		: OBU37974FD1471C
+			Browser Name / Version	: CHROME / 39.0.2171.95
+			Test Start Time		: Thu Feb 12 14:46:15 CST 2015
+			Test End Time		: Thu Feb 12 14:47:14 CST 2015
+			Script Execution Time	: 00:01:02
+			Total Number Of Steps	: 43
+			Script Execution Status	: PASS
+
+			*******************************************************
+
+************************************************************
+Description : AVENUECODE HOME PAGE - BROKEN
+
+
+Step 1		02/12/2015 14:46:25		PASS
+------------------------------------------------------------
+Description	: Navigate to URL - http://avenuecode.com/
+Actual Result	: Navigate to URL - http://avenuecode.com/ - SUCCESSFULL
+
+
+************************************************************
+Description : CURRENT PAGE TITLE IS - AVENUE CODE | HOME
+
+
+************************************************************
+Description : NUMBER OF LINKS ON CURRENT PAGE IS - 41
+
+
+Step 2		02/12/2015 14:46:26		PASS
+------------------------------------------------------------
+Description	: Link # 0 - HREF Value is - http://avenuecode.com/services/#consulting
+Actual Result	: Server response code for Link # 0 is - 200
+
+
+Step 3		02/12/2015 14:46:26		PASS
+------------------------------------------------------------
+Description	: Link # 1 - HREF Value is - http://avenuecode.com/services/#project-ownership
+Actual Result	: Server response code for Link # 1 is - 200
+
+
+Step 4		02/12/2015 14:46:27		PASS
+------------------------------------------------------------
+Description	: Link # 2 - HREF Value is - http://avenuecode.com/services/#staffing
+Actual Result	: Server response code for Link # 2 is - 200
+
+
+Step 5		02/12/2015 14:46:28		PASS
+------------------------------------------------------------
+Description	: Link # 3 - HREF Value is - http://avenuecode.com/services/#training
+Actual Result	: Server response code for Link # 3 is - 200
+
+
+Step 6		02/12/2015 14:46:28		PASS
+------------------------------------------------------------
+Description	: Link # 4 - HREF Value is - http://avenuecode.com/
+Actual Result	: Server response code for Link # 4 is - 200
+
+
+Step 7		02/12/2015 14:46:29		PASS
+------------------------------------------------------------
+Description	: Link # 5 - HREF Value is - http://avenuecode.com/
+Actual Result	: Server response code for Link # 5 is - 200
+
+
+Step 8		02/12/2015 14:46:30		PASS
+------------------------------------------------------------
+Description	: Link # 6 - HREF Value is - http://avenuecode.com/about/
+Actual Result	: Server response code for Link # 6 is - 200
+
+
+Step 9		02/12/2015 14:46:30		PASS
+------------------------------------------------------------
+Description	: Link # 7 - HREF Value is - http://avenuecode.com/careers/
+Actual Result	: Server response code for Link # 7 is - 200
+
+
+Step 10		02/12/2015 14:46:31		PASS
+------------------------------------------------------------
+Description	: Link # 8 - HREF Value is - http://avenuecode.com/services/
+Actual Result	: Server response code for Link # 8 is - 200
+
+
+Step 11		02/12/2015 14:46:32		PASS
+------------------------------------------------------------
+Description	: Link # 9 - HREF Value is - http://avenuecode.com/contact/
+Actual Result	: Server response code for Link # 9 is - 200
+
+
+Step 12		02/12/2015 14:46:33		PASS
+------------------------------------------------------------
+Description	: Link # 10 - HREF Value is - http://avenuecode.com/code-highway/
+Actual Result	: Server response code for Link # 10 is - 200
+
+
+Step 13		02/12/2015 14:46:33		PASS
+------------------------------------------------------------
+Description	: Link # 11 - HREF Value is - http://avenuecode.com/#what-we-do
+Actual Result	: Server response code for Link # 11 is - 200
+
+
+Step 14		02/12/2015 14:46:34		PASS
+------------------------------------------------------------
+Description	: Link # 12 - HREF Value is - http://avenuecode.com/#services
+Actual Result	: Server response code for Link # 12 is - 200
+
+
+Step 15		02/12/2015 14:46:35		PASS
+------------------------------------------------------------
+Description	: Link # 13 - HREF Value is - http://avenuecode.com/#clients
+Actual Result	: Server response code for Link # 13 is - 200
+
+
+Step 16		02/12/2015 14:46:36		PASS
+------------------------------------------------------------
+Description	: Link # 14 - HREF Value is - http://avenuecode.com/services/#consulting
+Actual Result	: Server response code for Link # 14 is - 200
+
+
+Step 17		02/12/2015 14:46:37		PASS
+------------------------------------------------------------
+Description	: Link # 15 - HREF Value is - http://avenuecode.com/services/#project-ownership
+Actual Result	: Server response code for Link # 15 is - 200
+
+
+Step 18		02/12/2015 14:46:37		PASS
+------------------------------------------------------------
+Description	: Link # 16 - HREF Value is - http://avenuecode.com/services/#staffing
+Actual Result	: Server response code for Link # 16 is - 200
+
+
+Step 19		02/12/2015 14:46:38		PASS
+------------------------------------------------------------
+Description	: Link # 17 - HREF Value is - http://avenuecode.com/services/#training
+Actual Result	: Server response code for Link # 17 is - 200
+
+
+Step 20		02/12/2015 14:46:38		WARNING
+------------------------------------------------------------
+Description	: Link # 18 - HREF Value is - javascript:;
+Actual Result	: Link # 18contains javascript
+
+
+Step 21		02/12/2015 14:46:38		WARNING
+------------------------------------------------------------
+Description	: Link # 19 - HREF Value is - javascript:;
+Actual Result	: Link # 19contains javascript
+
+
+Step 22		02/12/2015 14:46:39		WARNING
+------------------------------------------------------------
+Description	: Link # 20 - HREF Value is - javascript:;
+Actual Result	: Link # 20contains javascript
+
+
+Step 23		02/12/2015 14:46:39		PASS
+------------------------------------------------------------
+Description	: Link # 21 - HREF Value is - http://avenuecode.com/clients_partners/hp-cloud/
+Actual Result	: Server response code for Link # 21 is - 200
+
+
+Step 24		02/12/2015 14:46:40		PASS
+------------------------------------------------------------
+Description	: Link # 22 - HREF Value is - http://avenuecode.com/clients_partners/oracle/
+Actual Result	: Server response code for Link # 22 is - 200
+
+
+Step 25		02/12/2015 14:46:41		PASS
+------------------------------------------------------------
+Description	: Link # 23 - HREF Value is - http://avenuecode.com/clients_partners/mulesoft/
+Actual Result	: Server response code for Link # 23 is - 200
+
+
+Step 26		02/12/2015 14:46:41		PASS
+------------------------------------------------------------
+Description	: Link # 24 - HREF Value is - http://avenuecode.com/clients_partners/chef/
+Actual Result	: Server response code for Link # 24 is - 200
+
+
+Step 27		02/12/2015 14:46:42		PASS
+------------------------------------------------------------
+Description	: Link # 25 - HREF Value is - http://avenuecode.com/clients_partners/lello/
+Actual Result	: Server response code for Link # 25 is - 200
+
+
+Step 28		02/12/2015 14:46:42		PASS
+------------------------------------------------------------
+Description	: Link # 26 - HREF Value is - http://avenuecode.com/clients_partners/empressa1/
+Actual Result	: Server response code for Link # 26 is - 200
+
+
+Step 29		02/12/2015 14:46:43		PASS
+------------------------------------------------------------
+Description	: Link # 27 - HREF Value is - http://avenuecode.com/clients_partners/macys/
+Actual Result	: Server response code for Link # 27 is - 200
+
+
+Step 30		02/12/2015 14:46:44		PASS
+------------------------------------------------------------
+Description	: Link # 28 - HREF Value is - http://avenuecode.com/clients_partners/walmart/
+Actual Result	: Server response code for Link # 28 is - 200
+
+
+Step 31		02/12/2015 14:46:45		PASS
+------------------------------------------------------------
+Description	: Link # 29 - HREF Value is - http://avenuecode.com/clients_partners/american-eagle-outfitters/
+Actual Result	: Server response code for Link # 29 is - 200
+
+
+Step 32		02/12/2015 14:46:45		PASS
+------------------------------------------------------------
+Description	: Link # 30 - HREF Value is - http://avenuecode.com/clients_partners/williams-sonoma/
+Actual Result	: Server response code for Link # 30 is - 200
+
+
+Step 33		02/12/2015 14:46:46		PASS
+------------------------------------------------------------
+Description	: Link # 31 - HREF Value is - http://avenuecode.com/clients_partners/fortune-100-retailer/
+Actual Result	: Server response code for Link # 31 is - 200
+
+
+Step 34		02/12/2015 14:46:47		PASS
+------------------------------------------------------------
+Description	: Link # 32 - HREF Value is - http://avenuecode.com/clients_partners/fortune-500-retailer/
+Actual Result	: Server response code for Link # 32 is - 200
+
+
+Step 35		02/12/2015 14:46:48		PASS
+------------------------------------------------------------
+Description	: Link # 33 - HREF Value is - http://avenuecode.com/clients_partners/fortune-200-retailer/
+Actual Result	: Server response code for Link # 33 is - 200
+
+
+Step 36		02/12/2015 14:46:48		WARNING
+------------------------------------------------------------
+Description	: Link # 34 - HREF Value is - http://avenuecode.com/#top
+Actual Result	: IS NOT DISPLAYED / HIDDEN 
+
+
+Step 37		02/12/2015 14:46:51		PASS
+------------------------------------------------------------
+Description	: Link # 35 - HREF Value is - https://www.facebook.com/avenuecode
+Actual Result	: Server response code for Link # 35 is - 200
+
+
+Step 38		02/12/2015 14:46:55		PASS
+------------------------------------------------------------
+Description	: Link # 36 - HREF Value is - https://twitter.com/AvenueCode
+Actual Result	: Server response code for Link # 36 is - 200
+
+
+Step 39		02/12/2015 14:46:59		PASS
+------------------------------------------------------------
+Description	: Link # 37 - HREF Value is - https://www.linkedin.com/company/avenue-code
+Actual Result	: Server response code for Link # 37 is - 200
+
+
+Step 40		02/12/2015 14:47:06		PASS
+------------------------------------------------------------
+Description	: Link # 38 - HREF Value is - https://www.google.com/+AvenuecodeNow
+Actual Result	: Server response code for Link # 38 is - 200
+
+
+Step 41		02/12/2015 14:47:10		PASS
+------------------------------------------------------------
+Description	: Link # 39 - HREF Value is - https://www.youtube.com/user/AvenueCodePlay
+Actual Result	: Server response code for Link # 39 is - 200
+
+
+Step 42		02/12/2015 14:47:14		PASS
+------------------------------------------------------------
+Description	: Link # 40 - HREF Value is - https://www.flickr.com/photos/avenuecode
+Actual Result	: Server response code for Link # 40 is - 200
+
+
+
+		-------->[ End Of Script Execution ]<--------
+
+
